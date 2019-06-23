@@ -1,8 +1,93 @@
+body {
+    padding-top: 5rem;
+}
+
+.starter-template {
+    padding: 3rem 1.5rem;
+    text-align: center;
+}
+
 .navbar-toggler:focus,
 .navbar-toggler:active {
     outline: none;
 }
 
-.navbar-brand{
+.navbar-fixed-top .nav {
+    padding: 15px 0;
+}
+
+.navbar-fixed-top .navbar-brand {
+    padding: 0 15px;
+}
+
+/* 
+.login {
+    margin-right: 5px;
+} */
+
+.dropdown-menu {
+    width: 300px !important;
+}
+
+.nav-icon {
+    padding: 5px;
+}
+
+.icon-link {
     color: white;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.icon-active {
+    color: rgb(110, 214, 240);
+}
+
+a:hover.icon-link {
+    color: rgb(110, 214, 240);
+}
+
+.fa-spin-hover:hover {
+    -webkit-animation: fa-spin 2s infinite linear;
+    -moz-animation: fa-spin 2s infinite linear;
+    -o-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+
+#search-form {
+    display: none;
+    padding: 5px;
+}
+
+#search {
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    #search {
+        display: none;
+    }
+
+    #search-form {
+        display: block;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+
+    body {
+        padding-top: 100px;
+        /* Required padding for .navbar-fixed-top. Change if height of navigation changes. */
+    }
+
+    .navbar-fixed-top .navbar-brand {
+        padding: 15px 0;
+    }
 }
