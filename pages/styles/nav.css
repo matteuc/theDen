@@ -1,0 +1,8 @@
+.navbar-toggler:focus,
+.navbar-toggler:active {
+    outline: none;
+}
+
+.navbar-brand{
+    color: white;
+}
