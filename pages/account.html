@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="Matthew Chen, Jessica Chiang">
+    <meta name="generator" content="Jekyll v3.8.5">
+    <title>My Account | WeLearn</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/4.3/examples/starter-template/">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/account.css" class="cp-pen-styles">
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script> -->
+    <script src="assets/jquery-3.4.1.slim.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script> -->
+    <script src="assets/bootstrap.min.js"></script>
+
+    <!-- Font Awesome Script -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- <script src="https://kit.fontawesome.com/325ada46a1.js"></script> -->
+    <script src="assets/fontAwesome.js"></script>
+    <!-- Account CSS -->
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Pacifico:300,400,600,700&lang=en" />
+    <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&lang=en" />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <style>
+        body {
+            padding-top: 59px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="home.html">weLearn</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="home.html">
+                        Home
+                        <i class="fas fa-school nav-icon"></i>
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="explore.html">
+                        Explore
+                        <i class="fas fa-hiking nav-icon"></i>
+                    </a>
+                </li>
+                <!-- <li class="nav-item">
+                                                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                                                        </li> -->
+                <!-- <li class="nav-item dropdown">
+                                                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                                                    aria-haspopup="true" aria-expanded="false">All About Me!</a>
+                                                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                                                    <a class="dropdown-item" href="classmates.html">My Classmates</a>
+                                                    <div class="dropdown-divider"></div>
+                                                    <a class="dropdown-item" href="account-profile.html">My Account</a>
+                                                </div>
+                                            </li> -->
+
+            </ul>
+
+            <a href="account-profile.html" class="icon-link icon-active" title="My Account">
+                <i class="fas fa-child fa-lg fa-spin-hover"></i>
+            </a>
+            <a href="classes.html" class="icon-link" title="My Classes">
+                <i class="fas fa-graduation-cap fa-lg"></i>
+            </a>
+            <a href="notifications.html" class="icon-link" title="My Notifications">
+                <i class="fas fa-bell fa-lg"></i>
+            </a>
+            <a href="messages.html" class="icon-link" title="My Messages">
+                <i class="fas fa-inbox fa-lg"></i>
+            </a>
+
+            <div id="search" class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle icon-link" href="#" id="dropdown01" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" title="Search site">
+                    <i class="fas fa-search fa-lg"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown01"
+                    style=" background-color: rgb(151, 222, 240);">
+                    <form class="form-inline my-2 my-lg-0" style="padding: 5px;">
+                        <input class="form-control mr-sm-2" type="text" placeholder="I am looking for..."
+                            aria-label="Search">
+                        <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+            <form id="search-form" class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="I am looking for..." aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+
+        </div>
+    </nav>
+    <main role="main" class="dashboard-container">
+        <div class="sidebar">
+            <img class="logo" src="assets/cat_logo.png" id="logo" class="img-responsive center-block fit-image"
+                alt="Logo" style="padding-top: 30px; display: block;
+                      margin: 0 auto; ">
+            <div class="sidebar-avatar">
+                <div class="sidebar-avatar-photo avatar">
+                    <img class="img-responsive center-block fit-image" src="assets/avatar-me.png">
+                </div>
+                <div class="sidebar-avatar-user">
+                    <span class="sidebar-avatar-name">Nacho Libre</span>
+                    <i class="arrow bottom"></i>
+                </div>
+            </div>
+            <div class="sidebar-menu main">
+                <ul class="sidebar-items">
+                    <li class="sidebar-item">
+                        <a href="account-profile.html" class="sidebar-link">
+                            <span class="sidebar-link-concept lg-display center-block">My Profile
+                                <i class="fas fa-user-ninja fa-sm" style="margin-left: 5px"></i>
+                            </span>
+                            <span class="sidebar-link-concept sm-display center-block">
+                                <i class="fas fa-user-ninja fa-lg" style="margin-left: 5px"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="account-settings.html" class="sidebar-link">
+                            <span class="sidebar-link-concept lg-display center-block">My Settings
+                                <i class="fas fa-user-cog fa-sm" style="margin-left: 5px"></i>
+                            </span>
+                            <span class="sidebar-link-concept sm-display center-block">
+                                <i class="fas fa-user-cog fa-lg" style="margin-left: 5px"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="classes.html" class="sidebar-link">
+                            <span class="sidebar-link-concept lg-display center-block">My classes
+                                <i class="fa fa-graduation-cap fa-sm" style="margin-left: 5px"></i>
+                            </span>
+                            <span class="sidebar-link-concept sm-display center-block">
+                                <i class="fa fa-graduation-cap fa-lg" style="margin-left: 5px"></i>
+                            </span>
+                        </a>
+                    </li>
+
+                    <li class="sidebar-item">
+                        <a href="logout.html" class="sidebar-link">
+                            <span class="sidebar-link-concept lg-display center-block">Logout
+                                <i class="fas fa-sign-out-alt fa-sm" style="margin-left: 5px"></i>
+                            </span>
+                            <span class="sidebar-link-concept sm-display center-block">
+                                <i class="fas fa-sign-out-alt fa-lg" style="margin-left: 5px"></i>
+
+                            </span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class=" col-xs-10 col-sm-10 col-md-6 col-xs-offset-1 col-sm-offset-1 col-md-offset-2">
+
+            <div class="header">
+                <div class="header-intro">
+                    <div class="header-left">
+                        <h2 class="header2"> Welcome, Nacho Libre!</h2>
+                        <span class="header-left-city">This is your main account page.</span>
+                    </div>
+
+                </div>
+                <ul class="header-navigation">
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-item-link">My Profile</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-item-link">My Classes</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-item-link">My Certifcates</a>
+                    </li>
+                    <li class="navigation-item">
+                        <a href="#" class="navigation-item-link">Summary</a>
+                    </li>
+                </ul>
+
+            </div>
+            <div class=" col-sm-10 col-md-10">
+                <br>
+                <span class="userprompt"> Please provide the information below. This information will be used in all
+                    your personalized graphics!</span>
+            </div>
+
+        </div>
+
+        <!-- Choose File for Profile Picture -->
+        <!-- <div class="input-group">
+            <div class="custom-file">
+                <input type="file" class="custom-file-input" id="inputGroupFile04"
+                    aria-describedby="inputGroupFileAddon04">
+                <label class="custom-file-label" for="inputGroupFile04">Choose file</label>
+            </div>
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary" type="button" id="inputGroupFileAddon04">Upload</button>
+            </div>
+        </div> -->
+    </main>
+
+    </script>
+</body>
+
+</html>
+
+<html>
