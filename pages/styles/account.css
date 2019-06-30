@@ -927,6 +927,7 @@ ul {
     display: block;
     /* height: 60px; */
     width: 10vw;
+    min-width: 100px;
 }
 
 .avatar {
@@ -1420,6 +1421,7 @@ dd {
 .logo {
     max-height: 190px;
     width: 3vw;
+    min-width: 45px;
 }
 
 .logo>img {
